@@ -11,6 +11,8 @@ import util.Empacotamento;
 
 public class Exemplo1 {
 
+	public Exemplo1() {super();}
+
 	public static void main(String[] args) throws IOException {
 
 		String nome;

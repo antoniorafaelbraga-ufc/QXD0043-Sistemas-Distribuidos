@@ -27,11 +27,11 @@ public class ExemploStream {
 			// Fecha streams FileOutputStream	
 			arquivoGrav.flush();
 			arquivoGrav.close();
-			System.out.println("Objeto gravado com sucesso!");
+			System.out.println("Objetos gravados com sucesso!");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		System.out.println("Recuperando objeto: ");
+		System.out.println("Recuperando objetos: ");
 		try {
 			// Carrega o arquivo
 			FileInputStream arquivoLeitura = new FileInputStream("saida.dat"); 

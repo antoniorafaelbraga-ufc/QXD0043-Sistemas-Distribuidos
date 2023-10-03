@@ -1,8 +1,8 @@
 package reflection;
 import java.util.Map;
 
-import pojos.Person;
-import pojos.Product;
+import entidades.Person;
+import entidades.Product;
  
 public class ReflectionTest {
  

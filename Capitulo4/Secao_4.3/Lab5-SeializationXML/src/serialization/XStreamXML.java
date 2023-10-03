@@ -4,7 +4,7 @@ import com.thoughtworks.xstream.XStream;
 
 import entidades.Pessoa;
 
-public class Teste {
+public class XStreamXML {
 
    public static void main(String args[]) {
          // criando um Aluno
