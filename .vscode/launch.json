@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TCPClient",
+            "request": "launch",
+            "mainClass": "secao_4_2.sockets.TCP.TCPClient",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "TCPServer",
+            "request": "launch",
+            "mainClass": "secao_4_2.sockets.TCP.TCPServer",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "ClienteMulticast",
+            "request": "launch",
+            "mainClass": "secao_4_4.multicast.MulticastCS.ClienteMulticast",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "ServidorMulticast",
+            "request": "launch",
+            "mainClass": "secao_4_4.multicast.MulticastCS.ServidorMulticast",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "JAXBExample",
+            "request": "launch",
+            "mainClass": "secao_4_3.serializationTexts.serializationJSON.JAXBExample",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "XStreamXML",
+            "request": "launch",
+            "mainClass": "secao_4_3.serializationTexts.serializationXML.XStreamXML",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "XStreamXMLExample_old",
+            "request": "launch",
+            "mainClass": "secao_4_3.serializationTexts.serializationXML.XStreamXMLExample_old",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "XStreamJSONExample",
+            "request": "launch",
+            "mainClass": "secao_4_3.serializationTexts.serializationJSON.XStreamJSONExample",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "XStreamXMLExample",
+            "request": "launch",
+            "mainClass": "secao_4_3.serializationTexts.serializationXML.XStreamXMLExample",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "ExemploStream",
+            "request": "launch",
+            "mainClass": "secao_4_3.serializationBinary.serialization.ExemploStream",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

@@ -1,4 +1,4 @@
-package secao_4_4.multicast.MulticastCS;
+package secao_4_4.multicastCS;
 
 import java.net.DatagramPacket;
 import java.net.InetAddress;

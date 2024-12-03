@@ -1,4 +1,4 @@
-package secao_4_4.multicast.MulticastP2P;
+package secao_4_4.multicastP2P;
 
 import java.net.*;
 import java.io.*;
