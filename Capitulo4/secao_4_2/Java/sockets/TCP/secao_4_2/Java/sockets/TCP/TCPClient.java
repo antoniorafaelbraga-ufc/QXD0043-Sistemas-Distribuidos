@@ -1,4 +1,4 @@
-package secao_4_2.sockets.TCP;
+package secao_4_2.Java.sockets.TCP;
 
 import java.net.*;
 import java.io.*;

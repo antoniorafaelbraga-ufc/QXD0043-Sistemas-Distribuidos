@@ -8,6 +8,41 @@
             "type": "java",
             "name": "TCPClient",
             "request": "launch",
+            "mainClass": "secao_4_2.Java.sockets.TCP.TCPClient",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "TCPServer",
+            "request": "launch",
+            "mainClass": "secao_4_2.Java.sockets.TCP.TCPServer",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "clienteUDP",
+            "request": "launch",
+            "mainClass": "secao_4_2.Java.sockets.UDP.clienteUDP",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "servidorUDP",
+            "request": "launch",
+            "mainClass": "secao_4_2.Java.sockets.UDP.servidorUDP",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "servidorUDP",
+            "request": "launch",
+            "mainClass": "servidorUDP",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
+            "name": "TCPClient",
+            "request": "launch",
             "mainClass": "secao_4_2.sockets.TCP.TCPClient",
             "projectName": "Capitulo4_novo"
         },
