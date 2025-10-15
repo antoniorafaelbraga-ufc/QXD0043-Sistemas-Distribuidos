@@ -1,10 +1,10 @@
-package secao_4_2.streams;
+package streams;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Scanner;
 
-import secao_4_2.entidades.Pessoa;
+import entidades.Pessoa;
 
 public class PessoasInputStream extends InputStream {
 

@@ -1,4 +1,4 @@
-package secao_4_2.entidades;
+package entidades;
 
 public class Pessoa {
 	private String nome;

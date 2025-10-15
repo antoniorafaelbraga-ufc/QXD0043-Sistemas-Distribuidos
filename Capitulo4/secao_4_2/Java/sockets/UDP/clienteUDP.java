@@ -1,4 +1,4 @@
-package secao_4_2.sockets.UDP;
+package sockets.UDP;
 
 import java.net.*;
 

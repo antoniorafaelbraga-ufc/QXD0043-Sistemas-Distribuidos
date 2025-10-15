@@ -1,4 +1,4 @@
-package secao_4_2.ping;
+package ping;
 
 import java.io.*;
 import java.net.*;

@@ -1,8 +1,8 @@
-package secao_4_2.streams;
+package streams;
 
 import java.io.IOException;
 
-import secao_4_2.entidades.Pessoa;
+import entidades.Pessoa;
 
 public class TestStreams {
 	public static void main(String[] args) throws IOException {
