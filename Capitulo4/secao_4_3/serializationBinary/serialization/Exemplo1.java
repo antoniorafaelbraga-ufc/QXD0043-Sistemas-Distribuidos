@@ -1,13 +1,13 @@
 //https://www.devmedia.com.br/serializacao-de-objetos-em-java/23413
-package secao_4_3.serializationBinary.serialization;
+package serialization;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import secao_4_3.serializationBinary.entidades.Pessoa;
-import secao_4_3.serializationBinary.util.Desempacotamento;
-import secao_4_3.serializationBinary.util.Empacotamento;
+import entidades.Pessoa;
+import util.Desempacotamento;
+import util.Empacotamento;
 
 public class Exemplo1 {
 

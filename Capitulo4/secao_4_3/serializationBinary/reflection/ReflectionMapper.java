@@ -1,4 +1,4 @@
-package secao_4_3.serializationBinary.reflection;
+package reflection;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;

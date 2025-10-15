@@ -1,11 +1,27 @@
-package entidades;
+package com.entidades;
 
 import java.io.Serializable;
 
+import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlAccessType;
+import jakarta.xml.bind.annotation.XmlAccessorType;
+
+@XmlRootElement(name = "pessoa")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Pessoa implements Serializable {
+	
+	@XmlElement(required = true)
 	private String nome;
+	
+	@XmlElement(name = "pesoCorporal", required = true)
 	private double pc; // peso corporal
+	
+	@XmlElement(name = "altura", required = true)
 	private double alt; // altura em metros
+
+	// Construtor padrão - OBRIGATÓRIO para JAXB
+	public Pessoa() {}
 
 	public Pessoa(String nome, double pc, double alt) {
 		this.nome = nome;
@@ -25,7 +41,7 @@ public class Pessoa implements Serializable {
 		return pc;
 	}
 
-	public void setPC(float pc) {
+	public void setPC(double pc) {
 		this.pc = pc;
 	}
 
@@ -33,7 +49,7 @@ public class Pessoa implements Serializable {
 		return alt;
 	}
 
-	public void setAlt(float alt) {
+	public void setAlt(double alt) {
 		this.alt = alt;
 	}
 
@@ -51,5 +67,11 @@ public class Pessoa implements Serializable {
 			return ("sobrepeso");
 		else
 			return ("obesidade");
+	}
+
+	@Override
+	public String toString() {
+		return String.format("Pessoa[nome='%s', peso=%.2fkg, altura=%.2fm, IMC=%.2f (%s)]", 
+							 nome, pc, alt, IMC(), interpretaIMC());
 	}
 }

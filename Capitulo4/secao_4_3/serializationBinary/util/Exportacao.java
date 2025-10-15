@@ -1,11 +1,11 @@
-package secao_4_3.serializationBinary.util;
+package util;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
-import secao_4_3.serializationBinary.entidades.Pessoa;
+import entidades.Pessoa;
 
 public class Exportacao {
 

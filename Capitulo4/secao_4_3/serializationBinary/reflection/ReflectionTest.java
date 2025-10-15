@@ -1,9 +1,9 @@
-package secao_4_3.serializationBinary.reflection;
+package reflection;
 
 import java.util.Map;
 
-import secao_4_3.serializationBinary.entidades.Person;
-import secao_4_3.serializationBinary.entidades.Product;
+import entidades.Person;
+import entidades.Product;
 
 public class ReflectionTest {
  

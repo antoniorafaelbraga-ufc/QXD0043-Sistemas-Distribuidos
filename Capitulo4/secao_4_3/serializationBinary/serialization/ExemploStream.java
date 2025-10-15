@@ -1,12 +1,12 @@
 //https://www.devmedia.com.br/introducao-a-serializacao-de-objetos/3050
-package secao_4_3.serializationBinary.serialization;
+package serialization;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import secao_4_3.serializationBinary.entidades.Cliente;
+import entidades.Cliente;
 
 public class ExemploStream {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package secao_4_3.serializationBinary.entidades;
+package entidades;
 
 public class Person {
 
