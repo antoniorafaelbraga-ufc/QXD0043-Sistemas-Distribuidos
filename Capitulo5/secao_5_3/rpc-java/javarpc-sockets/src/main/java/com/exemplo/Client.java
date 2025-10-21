@@ -10,7 +10,7 @@ public class Client {
              PrintWriter out = new PrintWriter(socket.getOutputStream(), true)) {
 
             // Envia a chamada do método para o servidor
-            String request = "sayHello:2025.1- SD - 01A";
+            String request = "sayHello:2025.2- SD - 01A";
             out.println(request);
             System.out.println("Requisição enviada: " + request);
             // Recebe a resposta do servidor

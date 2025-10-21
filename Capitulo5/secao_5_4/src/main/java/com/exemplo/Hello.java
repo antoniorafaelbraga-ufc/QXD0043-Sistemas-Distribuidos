@@ -1,6 +1,6 @@
 package com.exemplo;
-import java.rmi.Remote;
 
+import java.rmi.Remote;
 
 import java.rmi.RemoteException;
 // Interface remota que será usada pelo RMI
