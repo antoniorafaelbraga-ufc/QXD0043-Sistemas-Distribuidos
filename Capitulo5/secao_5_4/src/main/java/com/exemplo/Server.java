@@ -8,7 +8,7 @@ public class Server {
             LocateRegistry.createRegistry(1099);
             
             // Instancia o serviço e o registra
-            HelloImpl hello = new HelloImpl();
+            Hello hello = new HelloImpl();
             Naming.rebind("HelloService", hello);
             System.out.println("Servidor RMI pronto!");
         } catch (Exception e) {

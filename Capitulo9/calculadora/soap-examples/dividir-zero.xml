@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:cal="http://calculadora.com/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <cal:dividir>
+      <a>10</a>
+      <b>0</b>
+    </cal:dividir>
+  </soapenv:Body>
+</soapenv:Envelope>

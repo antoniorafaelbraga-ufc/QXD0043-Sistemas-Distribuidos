@@ -1,0 +1,18 @@
+<!--
+Exemplos de requisições SOAP separados em arquivos XML
+para facilitar testes com curl e ferramentas de API testing
+-->
+
+<!-- soap-request-somar.xml -->
+<!-- Teste: curl -X POST http://localhost:8080/services/calculadora -H "Content-Type: text/xml; charset=utf-8" -d @soap-request-somar.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:cal="http://calculadora.com/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <cal:somar>
+      <a>3</a>
+      <b>5</b>
+    </cal:somar>
+  </soapenv:Body>
+</soapenv:Envelope>

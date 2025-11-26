@@ -8,7 +8,7 @@ import java.awt.Color;
 public class ShapeListClient{
    public static void main(String args[]){
    		String option = "Read"; //Read or write
-		String shapeType = "Rectangle";
+		String shapeType = "Line";
 		if(args.length > 0)  option = args[0];	// read or write
 		if(args.length > 1)  shapeType = args[1];	// specify Circle, Line etc
  		System.out.println("option = " + option + "\n shape = " + shapeType);

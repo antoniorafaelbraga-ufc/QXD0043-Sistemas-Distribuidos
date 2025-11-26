@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Web</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 400px; margin: auto; }
+        input, button { margin: 5px 0; padding: 8px; width: 100%; }
+        button { background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+    </style>
+    <script>
+            function calcular(operacao) {
+                const num1 = parseFloat(document.getElementById("num1").value);
+                const num2 = parseFloat(document.getElementById("num2").value);
+                fetch(`http://localhost:8080/${operacao}/${num1}/${num2}`)
+                    .then(response => response.text())
+                    .then(data => document.getElementById("resultado").innerText = data)
+                    .catch(error => console.error("Erro:", error));
+            }
+        </script> 
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora Web</h2>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <button onclick="calcular('somar')">Somar</button>
+        <button onclick="calcular('subtrair')">Subtrair</button>
+        <button onclick="calcular('multiplicar')">Multiplicar</button>
+        <button onclick="calcular('dividir')">Dividir</button>
+        <p id="resultado"></p>
+    </div>
+</body>
+</html>
