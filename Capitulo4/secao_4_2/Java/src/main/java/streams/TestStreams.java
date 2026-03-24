@@ -2,7 +2,7 @@ package streams;
 
 import java.io.IOException;
 
-import src.main.java.entidades.Pessoa;
+import entidades.Pessoa;
 
 public class TestStreams {
 	public static void main(String[] args) throws IOException {
