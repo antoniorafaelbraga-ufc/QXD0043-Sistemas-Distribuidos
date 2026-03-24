@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "servidorUDP",
+            "request": "launch",
+            "mainClass": "servidorUDP",
+            "projectName": "Capitulo4_novo"
+        },
+        {
+            "type": "java",
             "name": "XStreamJSON",
             "request": "launch",
             "mainClass": "XStreamJSON",
