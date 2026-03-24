@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Scanner;
 
-import entidades.Pessoa;
+import src.main.java.entidades.Pessoa;
 
 public class PessoasInputStream extends InputStream {
 
